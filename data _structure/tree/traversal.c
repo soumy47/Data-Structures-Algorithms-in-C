@@ -73,6 +73,7 @@ int main()
     root=insert(root,15);
     root=insert(root,30);
     root=insert(root,9);
+    root=insert(root,20);
     printf("Preorder: ");
     preorder(root);
     printf("Inorder: ");
