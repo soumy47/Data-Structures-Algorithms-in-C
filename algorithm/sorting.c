@@ -13,8 +13,8 @@ int main(){
    scanf("%d",&number[i]);
 
    
-   for(i=count-2;i>=0;i--){
-      for(j=0;j<=i;j++){
+   for(i=0;i<=count-1;i++){
+      for(j=0;j<count-i-1;j++){
         if(number[j]>number[j+1]){
            temp=number[j];
            number[j]=number[j+1];
